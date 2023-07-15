@@ -5,6 +5,7 @@ body{
     font-family: 'Space Grotesk', sans-serif;
     min-height: 100vh;
     padding: 20px;
+    background-color:rgba(248, 237, 190, 0.719);
 }
 h1{
     background-color: yellow;
@@ -14,10 +15,14 @@ h1{
     justify-content: center;
     margin: auto;
     padding: 2rem;
-    border: 2px ;
+    border: solid 2px black ;
+    border-radius: 20px;
+    width: 80%;
 }
 h2{
     font-size: 35px;
+    margin-left: 4rem;
+
 }
 #grid{
     display: grid;
