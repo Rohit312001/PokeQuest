@@ -5,11 +5,27 @@ body{
     font-family: 'Space Grotesk', sans-serif;
     min-height: 100vh;
     padding: 20px;
-    background-color:rgba(248, 237, 190, 0.719);
+    background-image: url(../images/pokemon-hd-fazqcs1tmwwte1ap.jpg);
+    
+}
+.image{
+    /* background-image: url(../images/wp2513121.png); */
+    background-image: url(../images/Background.jpg);
+    background-size:cover;
+
+}
+label{
+
+    border: 2px solid black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 5px;
+    background-color: rgb(175, 175, 245);
+    
 }
 h1{
     background-color: yellow;
-    color: red;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -20,9 +36,16 @@ h1{
     width: 80%;
 }
 h2{
+    display: inline-block;
     font-size: 35px;
     margin-left: 4rem;
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
 
+}
+#result{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
 }
 #grid{
     display: grid;
@@ -34,3 +57,11 @@ h2{
     gap: 0.2rem;
 
 } 
+p{
+    display: flexbox;
+    font-size:52px;
+    text-align: center;
+    justify-self: unset;
+    border: 2px solid coral;
+    background-color: cornflowerblue;
+}
